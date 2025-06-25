@@ -32,6 +32,7 @@ body {
   background-color: var(--light-bg);
   line-height: 1.6;
   overflow-x: hidden;
+  width: 100%;
 }
 
 a {
@@ -132,12 +133,14 @@ img {
 /* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary-color) 100%);
   overflow: hidden;
   margin-top: 70px;
+  padding: 40px 0;
+  width: 100%;
 }
 
 .hero::before {
@@ -156,6 +159,8 @@ img {
   z-index: 1;
   color: var(--light-text);
   max-width: 600px;
+  width: 100%;
+  padding: 0 20px;
 }
 
 .hero h1 {
@@ -761,6 +766,7 @@ img {
   .step-card {
     flex-direction: column;
     text-align: center;
+    padding: 15px;
   }
   
   .social-proof {
